@@ -9,7 +9,7 @@
 
 
  <div id="copyright">
- <p>&copy; <?php echo date("Y"); echo " "; bloginfo('name'); ?> | <a href="<?php echo esc_url( __('http://www.eleventhemes.com/', 'eleventhemes') ); ?>" title="Eleven WordPress Themes" target="_blank">Theme by Eleven Themes </a></p>
+ <p>&copy; <?php echo date("Y"); echo " "; bloginfo('name'); ?><a href="<?php echo esc_url( __('http://www.eleventhemes.com/', 'eleventhemes') ); ?>" title="Eleven WordPress Themes" target="_blank"></a></p>
  </div><!-- // copyright -->   
      
 </div><!-- // wrap -->   
