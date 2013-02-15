@@ -1,0 +1,427 @@
+/*
+
+Theme Name: Vertical Theme
+
+Theme URI: http://www.dessign.net/verticaltheme/
+
+Description: Responsive Vertical Theme for WordPress is stylish, customizable, simple, and readable. Perfect for any illustrator or graphic designer. 
+
+Version: 2.0
+
+Author: Marios Lublinski
+
+Author URI: http://www.dessign.net
+
+Tags: 3 column theme, clean, portfolio
+
+*/
+
+
+
+/* Global */
+
+* { margin: 0; padding: 0; }
+
+body { font-size: 12px; font-family: verdana, arial, georgia; background-color: #f6f6ee; color: #4c4c4c; }
+
+img { border: none; }
+
+#main_container { width: 977px; margin: 0 auto; padding-bottom: 10px; }
+
+h1,h2,h3,h4,h5,p { margin: 10px 0; }
+
+a { color: #333;}
+
+a:hover { text-decoration:underline; color:#333; }
+
+.left { float: left; }
+
+.right { float: right; }
+
+.clear { clear: both; }
+
+
+
+/* Header */
+
+#header { padding: 1px 0; }
+
+#menu_container { padding: 10px 0; }
+
+#menu_container ul { list-style-type: none; margin-right: 25px; float: left; }
+
+#menu_container ul li { float: left; margin-right: 7px; }
+
+#menu_container ul li a { display: block; padding: 5px; background-color: #000; color: #fff; text-decoration: none; -moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px; }
+
+#menu_container ul li a:hover { background-color: #858585; }
+
+#menu_container ul li.current-menu-item a, #menu_container ul li.current_page_item a { background-color: #858585; }
+
+#menu_container .search_box { float: right; height: 25px; border: none; background-color: #000; color: #fff; width: 135px; padding: 0 5px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px; }
+
+
+
+.social_cont { float: right; }
+
+.social_cont img { padding: 5px; float: right; margin-left: 15px; }
+
+
+
+/* Content */
+
+#slider_container { padding: 0px 0 0px; position: relative; }
+
+
+#content { padding-top: 25px; }
+
+
+.home_post_box { float: left; width: 310px; margin-right: 23px; }
+
+.home_post_box h3 { font-size: 13px; color: #282828; }
+
+.home_post_box h3 a { color: #282828; text-decoration: none; }
+
+.home_post_box h3 a:hover { text-decoration: none; color: #666; }
+
+.home_post_box p { color: #4c4c4c; }
+
+.home_post_box_last { margin-right: 0; }
+
+.home_post_box img { width: 310px; height: 206px; }
+
+.home_post_box img:hover { opacity:0.7; filter:alpha(opacity=70); }
+
+
+
+.cat_row_box { padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #CFCFC9; }
+
+.cat_divider { border-bottom: 1px solid #CFCFC9; margin: 25px 0; }
+
+.cat_nav a { color: #4c4c4c; text-decoration: none; }
+
+
+
+.blog_post_box { margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px solid #CFCFC9; }
+
+.blog_post_box h3 { font-size: 15px; color: #282828; }
+
+.blog_post_box h3 a { color: #282828; text-decoration: none; }
+
+.blog_post_box h3 a:hover { text-decoration: none; color: #666; }
+
+.blog_post_box img { float: left; margin-right: 30px;  }
+
+
+
+#single_left { float: left; width: 629px; }
+
+#single_left { float: left; width: 629px; }
+
+#single_left .single_left_cont img { max-width: 629px; }
+
+#single_left h1 { float: left; width: 629px; font-size: 15px; color: #282828; }
+
+
+
+#commentform input[type=submit] { background-color: #000; border: none; color: #fff; padding: 8px 10px; }
+
+#commentform a { color: #000; }
+
+
+
+.commentlist a { color: #000; }
+
+
+
+/* Sidebar */
+
+
+
+#sidebar { float: right; width: 310px; margin-top: 38px; }
+
+
+
+.side_post_box { float: left; width: 310px; margin-bottom: 23px; }
+
+.side_post_box h3 { font-size: 13px; color: #282828; }
+
+.side_post_box h3 a { color: #282828; text-decoration: none; }
+
+.side_post_box h3 a:hover { text-decoration: none; color: #666; }
+
+.side_post_box p { color: #4c4c4c; }
+
+
+
+/* Footer */
+
+#footer { margin-top: 30px; padding-top: 15px; border-top: 1px solid #CFCFC9; }
+
+
+
+.footer_box { width: 310px; float: left; margin-right: 23px; color: #282828; }
+
+.footer_box ul { list-style-type: none; }
+
+.footer_box ul li { margin-bottom: 3px; }
+
+.footer_box a { color: #282828; text-decoration: none; }
+
+.footer_box a:hover { text-decoration: none; color: #666; }
+
+.footer_box h3 { font-size: 13px; }
+
+.footer_box_last { margin-right: 0; }
+
+
+
+.copyright_cont { margin-top: 20px; padding: 7px 10px 7px 0; font-size: 11px; color: #898989; border-top: 1px solid #CFCFC9; border-bottom: 1px solid #CFCFC9; text-align: right; }
+
+.copyright_cont a { color: #898989; text-decoration: none; }
+
+.copyright_cont a:hover { text-decoration: none; color: #666; }
+
+
+
+
+
+
+
+
+
+
+
+#slideshow {
+
+    position:relative;
+
+    width: 977px;
+
+    height:382px;
+
+}
+
+
+
+#slideshow img { width: 977px; height: 382px; }
+
+
+
+#slideshow a {
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    z-index:8;
+
+}
+
+
+
+#slideshow a.active {
+
+    z-index:10;
+
+}
+
+
+
+#slideshow a.last-active {
+
+    z-index:9;
+
+}
+
+
+
+
+
+#slider_container img.slide_prev { position: absolute; top: 180px; left: 15px; z-index: 999; width: 19px !important; height: 24px !important; display: block; }
+
+#slider_container img.slide_next { position: absolute; top: 180px; left: 943px; z-index: 999; width: 19px !important; height: 24px !important; display: block; }
+
+
+
+
+
+
+
+
+
+/* for mobile */
+
+@media screen and (max-width: 480px) {
+
+
+
+#main_container { width: 320px; padding: 10px 0px; }
+
+/*#menu_container { display: none; }*/
+
+/*.home_post_cont { margin-right: auto; margin-left: auto; float: none; clear: both; }*/
+
+#slider_container { display: none; }
+
+
+
+
+
+#footer { display: none; }
+
+#commentform textarea { width: 220px; }
+
+#sidebar { display: none; }
+
+#single_left { float: none; width: 228px; margin-left: auto; margin-right: auto; }
+
+#single_left .single_left_cont img { width: 228px; height:inherit; }
+
+
+
+.blog_post_box { margin: 0 auto 25px; padding-bottom: 25px; border-bottom: 1px solid #CFCFC9; width: 275px; }
+
+.blog_post_box img { float: none; margin-right: 0px; margin-bottom: 10px; width: 275px; height:inherit; }
+
+
+
+.cat_nav { width: 228px; margin: 0 auto; }
+
+
+
+/*.blog_box { float: none; width: 228px; margin-left: auto; margin-right: auto; }
+
+.blog_box img { width: 228px; height:inherit; float: none; margin: 0 0 10px 0; }
+
+
+
+.nav_container { width: 228px; margin-left: auto; margin-right: auto; } */
+
+
+
+.home_post_box { display: block; width: 275px; float: none; margin: 0 auto 15px auto; }
+
+.home_post_box img { width: 275px; height: 185px; }
+
+.home_post_box_last { margin-right: auto !important; }
+
+
+
+
+
+
+
+
+
+/*.home_post_box { margin-bottom: 20px; width: 258px; margin-right: auto; margin-left: auto; float: none; }*/
+
+/*.home_featured_text { display: none; }*/
+
+.social_cont { display: none; }
+
+.search_box { display: none; }
+
+
+
+#menu_container ul { list-style-type: none; width: 110px; float: left; margin-left: 23px; }
+
+#menu_container ul li { float: none; margin-bottom: 3px; margin-right: 0; }
+
+#menu_container ul.cat_menu { margin-left: 25px; }
+
+
+
+.cat_divider { display: none; }
+
+
+
+}
+
+
+
+
+
+/* for tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+
+#main_container { width: 728px; padding: 10px 0;  }
+
+.search_box { display: none; }
+
+#slider_container { width: 728px; height: 223px; }
+
+
+
+#slideshow {
+
+    position:relative;
+
+    width: 728px;
+
+    height:223px;
+
+}
+
+
+
+#slideshow img { width: 728px; height: 223px; }
+
+
+
+#single_left { width: 500px; }
+
+#single_left .single_left_cont img { max-width: 500px; height: inherit; }
+
+#sidebar { width: 200px;  }
+
+
+
+.side_post_box { width: 200px; }
+
+.side_post_box img { max-width: 200px; height: inherit; }
+
+
+
+#slideshow { height: 273px; width: 728px; }
+
+
+
+#slider_container {
+
+height: 273px; width: 728px;
+
+}
+
+
+
+body #slider_container #slideshow img { width: 728px !important; height: 273px !important; }
+
+#slider_container img.slide_prev { top: 125px; }
+
+#slider_container img.slide_next { left: 694px; top: 125px; }
+
+
+
+.home_post_box { float: left; width: 227px; margin-right: 23px; }
+
+.home_post_box img { width: 227px; height: 156px; }
+
+
+
+.home_post_box_last { margin-right: 0; }
+
+
+
+.footer_box { width: 227px; float: left; margin-right: 23px; color: #282828; }
+
+.footer_box_last { margin-right: 0; }
+
+
+
+}

@@ -1,0 +1,381 @@
+/*
+
+Theme Name: W—PORT—2
+
+Theme URI: http://bk-w.com/w-port
+
+Description: W—PORT-2 is an alternative style of W—PORT 0.1.1.  W—PORT is a highly efficient portfolio theme created for Wordpress that uses a special grid system to organize content and create an optimized view of your work.
+
+Author: BKW&Co
+
+Version: 0.1.1
+
+Tags: design, portfolio
+
+*/
+
+
+
+html{color:#fff;background:#777;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+
+
+
+body{background:#777}
+
+
+
+#container {
+
+margin: 0;
+
+width: 100%;
+
+clear:both;
+
+}
+
+
+
+body,p,textarea {
+
+font-family: arial, sans-serif;
+
+font-size:12px;line-height:16px
+
+}
+
+
+#bkwtag a:link{color:#fff;text-decoration:underline}
+#bkwtag a:visited{color:#fff;text-decoration:underline}
+#bkwtag a:hover{color:#fff;text-decoration:underline}
+#bkwtag a:active{color:#fff;text-decoration:underline}
+
+h1{font-size:26px;line-height:28px}
+
+h2{font-size:18px;line-height:24px}
+
+h3{font-size:18px;line-height:none}
+
+
+
+img {margin:0;padding:0;border:0}
+
+
+
+#imgcontent{left:15px;position:absolute;top:0px;width: auto;max-width:1920px}
+
+#imgwrap{background:#fff}
+
+.image-holder{}
+
+.contentcopy{text-decoration:none;width:285px;color:#fff;padding-right:15px;padding-bottom:15px;padding-top:15px;}
+
+.contentcopy a:link {color: #fff;text-decoration:none;}
+
+.contentcopy a:hover {text-decoration:none; color: #33FFCC;}
+
+.contentcopy a:visited {color: #fff;text-decoration:none}
+
+.contentcopy a:active {color: #fff;text-decoration:none}
+
+
+
+#relatedposts{}
+
+#relatedthumb{max-width:150px;max-height:83px;overflow:hidden}
+
+#relatedthumb img{max-width:200px;height:auto}
+
+
+
+.feature{line-height:0;background:#fff url(http://www.bk-w.com/ajax-loader.gif) 50% 50% no-repeat;width:inherit;height:inherit; margin:0px 15px 15px 0px;}
+
+.feature img{height:inherit;max-width:670px}
+
+div.entry-content{width:300px;margin-top:15px}
+
+div.entry-content-page{width:600px;margin-top:15px;clear:both;float:none}
+
+
+
+.postcat2{color:#000;height:330px;min-width:600px;overflow:hidden;background:#fff url(http://www.bk-w.com/ajax-loader.gif) 50% 50% no-repeat}
+
+.postcat1{height:165px;min-width:300px;max-width:300px;overflow:hidden;background:#fff url(http://www.bk-w.com/ajax-loader.gif) 50% 50% no-repeat}
+
+.post{height:83px;min-width:150px;max-width:150px;overflow:hidden;background:#fff url(http://www.bk-w.com/ajax-loader.gif) 50% 50% no-repeat}
+
+.postcat2 img{width:600px; height:auto;vertical-align:middle; margin:auto}
+
+.postcat1 img{width:300px; height:auto}
+
+div.post{background:#fff}
+
+.post img{width:150px; height:auto}
+
+
+
+
+
+#postmeta {text-align:left;height:16px;width:144px;background:#fff;position:absolute;margin-top:61px;z-index:999;padding:3px;color: #000;text-decoration:none}
+
+#postmeta a:link, a:visited, a:active, a:hover {color:#000;z-index:999;text-decoration:none}
+
+
+
+#postmeta1 {text-align:left;height:15px;width:294px;background:#fff;position:absolute;margin-top:144px;z-index:999;padding:3px}
+
+#postmeta1 a:link, a:visited, a:active, a:hover { color: #000;z-index:999;text-decoration:none}
+
+
+
+#postmeta2 {color:#000;text-align:left;height:16px;width:594px;background:#fff;position:absolute;margin-top:308px;z-index:999;padding:3px}
+
+#postmeta2 a:link, a:visited, a:active, a:hover { color: #000;z-index:999;text-decoration:none}
+
+
+
+#tagmeta2{left:558px;top:0px;padding:3px;width:36px;height:16px;background:#CC0000;position:absolute;text-align:center;color:#fff}
+
+
+
+#colophon,
+
+#branding,
+
+#main{position:static}
+
+#main div{display:block;float:left}
+
+#wrapper {
+
+	max-width:1920px;
+
+	margin: -15px 0px 15px 0px;
+
+}
+
+
+
+#site-info {
+
+	float: left;
+
+}
+
+#site-generator {
+
+	float: right;
+
+}
+
+
+
+ul {
+
+	list-style: none;
+
+}
+
+ol {
+
+	list-style: none;
+
+}
+
+ol ol {
+
+	list-style: none;
+
+}
+
+ol ol ol {
+
+	list-style: none;
+
+}
+
+ol ol ol ol {
+
+	list-style: none;
+
+}
+
+ul ul,
+
+ol ol,
+
+ul ol,
+
+ol ul {
+
+	margin-bottom: 0;
+
+}
+
+
+
+
+
+
+
+strong {font-weight: bold;}
+
+em,i {font-style: italic;}
+
+
+
+.screen-reader-text {position: absolute;left: -9000px;}
+
+
+
+#header {padding:0px 0px 0px 15px;z-index:9999;width:100%;height:128px;padding-top:15px;position:fixed;bottom:0px;background:#000;filter:alpha(opacity=85);-moz-opacity:0.85;-khtml-opacity: 0.85;opacity: 0.85;}
+
+
+
+#headersingle {padding:0;z-index:9999;width:100%;height:98px;padding-top:0px;position:fixed;background:#fff;filter:alpha(opacity=95);-moz-opacity:0.95;-khtml-opacity: 0.95;opacity: 0.95;
+
+}
+
+
+
+fieldset.search {}
+
+
+
+.search input {border: none;}
+
+.search input.box {background:#000;color:#ccc;}
+
+.search input.box:hover {background:#000;color:#fff;}
+
+.search input.box:focus {background:#000;color:#fff;outline: none;}
+
+
+
+
+
+#site-title {float: left;background:transparent url('logo.png') no-repeat top left;height:83px;width:150px}
+
+#site-title a {color: #000;}
+
+
+
+#page-list{position:absolute;margin-left:135px;min-width:150px}
+
+#cat-list{position:absolute;min-width:150px}
+
+
+
+#searchbox{position:absolute;margin-left:735px;min-width:150px}
+
+#footerbox{position:absolute;margin-left:735px;margin-top:16px;min-width:150px}
+
+#footerbox a:link, a:visited, a:active{color:#888;text-decoration:none}
+
+#footerbox a:hover{color:#fff}
+
+#bkwtag{position:absolute;margin-left:585px;width:120px}
+
+#site-title {margin-left:300px;min-width:150px}
+
+
+
+#page-list a {	color: #fff;text-decoration: none;list-style:none;}
+
+#page-list a:hover {	color: #33FFCC;text-decoration: none;list-style:none;}
+
+#cat-list a {	color: #fff;text-decoration: none;list-style:none;}
+
+#cat-list a:hover {	color: #33FFCC;text-decoration: none;list-style:none;}
+
+
+
+#page-list ul li.current_page_item > a,
+
+#page-list ul li.current-cat > a,
+
+#page-list ul li.current-cat-parent > a,
+
+#page-list ul li.current-menu-ancestor > a,
+
+#page-list ul li.current-menu-item > a,
+
+#page-list ul li.current-menu-parent > a {color: #33FFCC;}
+
+
+
+#cat-list ul li.current_page_item > a,
+
+#cat-list ul li.current-cat > a,
+
+#cat-list ul li.current-cat-parent > a,
+
+#cat-list ul li.current-menu-ancestor > a,
+
+#cat-list ul li.current-menu-item > a,
+
+#cat-list ul li.current-menu-parent > a {color: #33FFCC;}
+
+#cat-list li.current-cat a{color: #33FFCC;}
+
+
+
+* html #page-list ul li.current_page_item a,
+
+* html #page-list ul li.current-cat > a,
+
+* html #page-list ul li.current-cat-parent > a,
+
+* html #page-list ul li.current-menu-ancestor a,
+
+* html #page-list ul li.current-menu-item a,
+
+* html #page-list ul li.current-menu-parent a,
+
+* html #page-list ul li a:hover {color: #33FFCC;}
+
+
+
+* html #cat-list ul li.current_page_item a,
+
+* html #cat-list ul li.current-cat > a,
+
+* html #cat-list ul li.current-cat-parent > a,
+
+* html #cat-list ul li.current-menu-ancestor a,
+
+* html #cat-list ul li.current-menu-item a,
+
+* html #cat-list ul li.current-menu-parent a,
+
+* html #cat-list ul li a:hover {color: #33FFCC;}
+
+
+
+#main {clear: both;overflow: hidden;padding: 0;margin-left:0px}
+
+
+
+#content {margin-top:0px;margin-bottom:143px}
+
+#pagecontent {margin-top:0px;padding-left:15px;margin-bottom:143px;float:none}
+
+#pagecontent p{float:none;clear:both;line-height:18px;margin-bottom:15px;}
+
+
+
+
+
+#page-list, #cat-list,
+
+.entry-meta,
+
+.entry-utility,
+
+.navigation,
+
+.widget-area {
+
+	-webkit-text-size-adjust: 120%;
+
+}

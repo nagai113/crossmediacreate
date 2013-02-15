@@ -1,0 +1,345 @@
+/*
+
+Theme Name:  Artfolio
+
+Theme URI: http://www.vorkshop.com
+
+Description: Minimal portfolio theme.
+
+Author: BKW&Co
+
+Version: 1
+
+Tags: portfolio, theme, w-portfolio, minimal, grid-based
+
+*/
+
+
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+
+#container {margin: 0;width: 100%;height:100%;clear:both;}
+
+html{min-height:100%;
+background:#eee;
+}
+
+body,p,textarea {
+
+font-family: 'Helvetica', Arial, sans-serif;
+font-size:12px;line-height:18px
+
+}
+
+a:link{text-decoration:none}
+a:active{text-decoration:none}
+a:hover{text-decoration:none}
+a:visited{text-decoration:none}
+
+#main{margin:0px;overflow:hidden;padding:5px;
+color:#000}
+
+#main div{clear:both}
+
+#header {position:fixed;z-index:999;margin:15px 0px 0px 15px}
+
+#content {width:100%}
+
+#Postcontent {width:100%;padding-left:15px;padding-bottom:15px;}
+
+#videoContent{padding-bottom:7px;}
+
+#nav{padding-bottom:10px}
+
+#thumbsMasonry{width:100%}
+
+#pagecontent{max-width:573px}
+
+#pagecontainer{padding:15px 0px 0px 15px}
+
+#wrapper {margin: 0px;}
+
+#pagecontent a:link{color:#000;text-decoration:underline}
+
+#pagecontent a:visited{color:#000;text-decoration:underline}
+
+#pagecontent a:hover{color:#000;text-decoration:none}
+
+#pagecontent a:active{color:#000;text-decoration:none}
+
+#pagecontent h1{font-size:26px;line-height:28px;margin:0;padding:0}
+
+#pagecontent h2{font-size:18px;line-height:24px;margin:0;padding:0}
+
+#pagecontent h3{font-size:18px;line-height:none;margin:0;padding:0}
+
+
+
+strong {font-weight: bold;}
+
+em,i {font-style: italic;}
+
+
+
+#page-list{background:#eee;width:181px;padding:0px 15px 15px 0px;float:left;}
+
+#cat-list{overflow:hidden;background:#fff;width:auto;padding:15px;float:left;}
+
+#site-title {background:transparent;float:left}
+
+#site-title2{background:#000;color:#fff;padding:15px;position:relative;float:left}
+
+#searchbox{position:fixed;right:15px;top:15px;background:#fff url('srch.gif') no-repeat center;z-index:999}
+
+#searchbox:hover{background:#000 url('srch2.gif') no-repeat center;}
+
+#searchbox input{-webkit-transition-duration: 400ms;
+	-webkit-transition-property: width, background;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 400ms;
+	-moz-transition-property: width, background;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 400ms;
+	-o-transition-property: width, background;
+	-o-transition-timing-function: ease;
+	width:20px;padding:15px;color:transparent;}
+
+#searchbox input:focus{width: 180px;background:#000;color:#fff}
+
+div#footerbox{color:#ccc;position:relative;padding:15px}
+#footerbox a:link{color:#ccc;text-decoration:none}
+#footerbox a:visited{color:#ccc;text-decoration:none}
+#footerbox a:hover{color:#000;text-decoration:none}
+#footerbox a:active{color:#000;text-decoration:none}
+
+#contentcopy {text-decoration:none;padding:10px 15px;background:#eee;color:#000;clear:both;max-width:600px}
+
+#imgcontent{z-index:1;}
+#imgcontent img{}
+
+a#next{color:#000;margin-left:15px}
+
+a#next:hover{color:#000; border-bottom:1px solid #000}
+
+a#prev{color:#000}
+
+a#prev:hover{color:#000; border-bottom:1px solid #000}
+
+#imgwrap{background:#000}
+
+.image-holder{}
+
+.pagetitle{}
+
+.pagecontent{}
+
+#relatedposts a{font-size:10px}
+#relatedposts{position:absolute;height:980px}
+#relatedthumb{width:181px;height:inherit;overflow:hidden;margin:0px 15px 15px 0px;float:left}
+#relatedthumb img{width:181px;height:auto}
+
+#featpost{overflow:hidden}
+
+.homeThumb {
+margin-right:5px;
+text-align:center;
+
+
+}
+
+div#figcaptionwrap{position:absolute;display: table-cell;
+    vertical-align: middle;
+background:#eee;
+width:100%;height:100%;
+  color:#000;
+opacity: 0;
+-webkit-transition: opacity .3s ease-in-out;
+-moz-transition: opacity .3s ease-in-out;
+-o-transition: opacity .3s ease-in-out;
+transition: opacity .3s ease-in-out;}
+
+span.captionTitle{
+text-align: center;
+display: table-cell;
+vertical-align: middle;
+background-color: transparent;
+padding:15px;
+}
+
+.insideCaption{
+display: table;
+width: inherit;
+height: inherit;
+}
+
+div#figcaptionwrap a:link, a:visited, a:hover, a:active{color:#000}
+
+figcaption.relatedcap{max-width:140px;padding:5px;opacity:0}
+
+.homeThumb:hover div#figcaptionwrap{
+  opacity: .98;
+}
+
+
+figcaption, h1, h2, h3, h4 {
+
+font-size:12px;
+
+}
+
+
+
+figcaption.* {
+
+  filter: alpha(opacity=0);
+
+}
+
+
+
+.homeThumb:hover div#figcaptionwrap {
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#aa000000,endColorstr=#aa000000);
+
+}
+
+
+
+
+
+
+
+.screen-reader-text {position: absolute;left: -9000px;}
+
+
+
+fieldset.search {}
+
+.search input {border: none;}
+
+.search input.box {background:transparent;color:#ccc;}
+
+.search input.box:hover {background:transparent;color:#fff;}
+
+.search input.box:focus {background:transparent;color:#fff;outline: none;}
+
+
+#site-title2 a:link {color:#fff;text-decoration:none}
+
+#site-title2 a:hover {color: #fff;text-decoration:none}
+
+#site-title2 a:visited {color: #fff;text-decoration:none}
+
+#site-title2 a:active {color: #fff;text-decoration:none}
+
+
+
+#contentcopy a:link {color:#000;text-decoration:underline}
+
+#contentcopy a:hover {color: #000;text-decoration:none}
+
+#contentcopy a:visited {color: #000;text-decoration:none}
+
+#contentcopy a:active {color: #000;text-decoration:none}
+
+
+
+#relatedposts a:link {color:#000;text-decoration:none}
+
+#relatedposts a:hover {color: #000;text-decoration:none}
+
+#relatedposts a:visited {color: #000;text-decoration:none}
+
+#relatedposts a:active {color: #000;text-decoration:none}
+
+
+
+figcaption a:link, a:visited, a:hover, a:active{text-decoration:none; color:#000;}
+
+
+
+#page-list a {	color: #ccc;text-decoration: none;list-style:none;}
+
+#page-list a:hover {	color: #000;text-decoration: none;list-style:none;}
+
+#cat-list a {	color: #ccc;text-decoration: none;list-style:none;}
+
+#cat-list a:hover {	color: #000;text-decoration: none;list-style:none;}
+
+
+
+#page-list ul li.current_page_item > a,
+
+#page-list ul li.current-cat > a,
+
+#page-list ul li.current-cat-parent > a,
+
+#page-list ul li.current-menu-ancestor > a,
+
+#page-list ul li.current-menu-item > a,
+
+#page-list ul li.current-menu-parent > a {color: #000}
+
+
+
+#cat-list ul li.current_page_item > a,
+
+#cat-list ul li.current-cat > a,
+
+#cat-list ul li.current-cat-parent > a,
+
+#cat-list ul li.current-menu-ancestor > a,
+
+#cat-list ul li.current-menu-item > a,
+
+#cat-list ul li.current-menu-parent > a {color: #000}
+
+#cat-list li.current-cat a{color: #000}
+
+
+
+* html #page-list ul li.current_page_item a,
+
+* html #page-list ul li.current-cat > a,
+
+* html #page-list ul li.current-cat-parent > a,
+
+* html #page-list ul li.current-menu-ancestor a,
+
+* html #page-list ul li.current-menu-item a,
+
+* html #page-list ul li.current-menu-parent a,
+
+* html #page-list ul li a:hover {color: #000}
+
+
+
+* html #cat-list ul li.current_page_item a,
+
+* html #cat-list ul li.current-cat > a,
+
+* html #cat-list ul li.current-cat-parent > a,
+
+* html #cat-list ul li.current-menu-ancestor a,
+
+* html #cat-list ul li.current-menu-item a,
+
+* html #cat-list ul li.current-menu-parent a,
+
+* html #cat-list ul li a:hover {color: #000}
+
+
+
+#page-list, #cat-list,
+
+.entry-meta,
+
+.entry-utility,
+
+.navigation,
+
+.widget-area {
+
+	-webkit-text-size-adjust: 120%;
+
+}
