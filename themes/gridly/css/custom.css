@@ -3,8 +3,8 @@
   #wrap { width:94%; margin-left:3%;}
   
 /* font styles */	
-  h1  { font-size:36px; line-height:41px; color:#000000; padding:0px; margin:0px; font-weight:bold; margin-bottom:5px; margin-top:5px; }
-  h2  { font-size:20px; line-height:23px; color:#000000; padding:0px; margin:0px; font-weight:bold; margin-bottom:5px; margin-top:10px;  }
+  h1  { font-size:20px; line-height:41px; color:#000000; padding:0px; margin:0px; font-weight:normal; margin-bottom:5px; margin-top:5px; }
+  h2  { font-size:20px; line-height:23px; color:#000000; padding:0px; margin:0px; font-weight:normal; margin-bottom:5px; margin-top:10px;  }
   h3  { font-size:15px; line-height:25px; color:#858585; padding:0px; margin:0px; font-weight:normal;   }
   h4  { font-size:15px; line-height:25px; color:#000000; padding:0px; margin:0px; font-weight:normal; font-weight:bold;  } 
   h5  { font-size:13px; line-height:22px; color:#000000; padding:0px; margin:0px; font-weight:normal;  }
@@ -30,7 +30,7 @@
   #logo 			 { margin-top:35px; margin-bottom:15px; }
   #nav 				 { width:100%; background:url(../images/light/bg-row.png) top left repeat-x; height:57px; overflow:hidden;   }
   #nav ul 			 {	display: inline; list-style: none;  margin:0px; padding:0px; height:42px; line-height:42px; clear:both;   }
-  #nav ul li 		 { float: left;  display: inline;  font-size: 12px; margin:0px; padding:0px;   }
+  #nav ul li 		 { float: left;  display: inline;  font-size: 16px; margin:0px; padding:0px;   }
   #nav ul li a 		 { display:block; height:42px; margin-right:20px; text-decoration:none; margin-top:10px;  }
   #nav ul li a:hover { }
   	
@@ -53,8 +53,8 @@
  
  
 /* post and page styles */ 
-  .type-post 				{ width:770px; background:#FFF; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; margin-right:10px; margin-top:15px; display:inline; float:left; }
-  .type-page 				{ width:770px; background:#FFF; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; margin-right:10px; margin-top:15px; display:inline; float:left; }
+  .type-post 				{ width:770px; background:#e5e5e5; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; margin-right:10px; margin-top:15px; display:inline; float:left; }
+  .type-page 				{ width:770px; background:#e5e5e5; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; margin-right:10px; margin-top:15px; display:inline; float:left; }
   .type-attachment 			{ width:770px; background:#FFF; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; margin-right:10px; margin-top:15px; display:inline; float:left; }
   .gridly-image 			{ z-index:5; }
   .gridly-category 			{ position:absolute; width:auto; background:#000; margin-top:-35px; z-index:10;  height:30px; overflow:hidden;}
