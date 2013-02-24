@@ -1,5 +1,5 @@
 /* colour styles : custom  */
-  body  { background:#e5e5e5;  font-size:12px; line-height:20px;  font-family: 'Droid Sans', sans-serif;   }
+  body  { background:#fff;  font-size:12px; line-height:20px;  font-family: 'Droid Sans', sans-serif;   }
   #wrap { width:94%; margin-left:3%;}
   
 /* font styles */	
@@ -19,9 +19,9 @@
   hr 	{ background:url(../images/hr.jpg) top center no-repeat; border:0; outline:0; clear:both; height:10px;}
 	
 /* link styles */	
-  a:link 		{color:#444444; text-decoration: none;} 
-  a:visited 	{color:#444444; text-decoration: none;}
-  a:hover 		{color:#000000; text-decoration: none;}
+  a:link 		{color:#000000; text-decoration: none;} 
+  a:visited 	{color:#12ecb6; text-decoration: none;}
+  a:hover 		{color:#F7FF0A; text-decoration: none;}
   a:active 		{color:#444444; text-decoration: none;}
   a:focus 		{outline-style: none;}  	
 	
@@ -66,7 +66,7 @@
   .size-full 				{ width:100%; height:inherit;}
  
 /* post index styles */ 
-  #post-area .post 				{ width:310px; background:#FFF; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; margin-right:10px; margin-top:15px; position:relative;  }
+  #post-area .post 				{ width:310px; background:#292929; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; margin-right:10px; margin-top:15px; position:relative; }
   #post-area .post .gridly-copy 		{ width:250px; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:20px; overflow:hidden; clear:both;}
   #post-area .post .gridly-date 		{ width:150px;  color:#8e8e8e; font-size:11px;  border-bottom:1px dotted #cccccc; padding-bottom:0; padding-top:0; }
   #post-area .post .gridly-link 		{ width:150px; border-top:1px dotted #e8e8e8; color:#494e51;}
