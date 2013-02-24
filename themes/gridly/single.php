@@ -7,7 +7,6 @@
    		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<?php if ( has_post_thumbnail() ) { ?>			
 				<div class="gridly-image"><?php the_post_thumbnail( 'detail-image' );  ?></div>
-                <div class="gridly-category"><p><?php the_category(', ') ?></p></div>
              <?php } ?>                   
 
        			<div class="gridly-copy">
