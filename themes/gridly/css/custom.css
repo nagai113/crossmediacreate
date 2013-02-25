@@ -1,15 +1,15 @@
 /* colour styles : custom  */
-  body  { background:#fff;  font-size:12px; line-height:20px;  font-family: 'Droid Sans', sans-serif;   }
+  body  { background:#ffffff;  font-size:12px; line-height:20px;  font-family: 'Droid Sans', sans-serif;   }
   #wrap { width:94%; margin-left:3%;}
   
 /* font styles */	
-  h1  { font-size:20px; line-height:41px; color:#000000; padding:0px; margin:0px; font-weight:normal; margin-bottom:5px; margin-top:5px; }
+  h1  { font-size:18px; line-height:41px; color:#000000; padding:0px; margin:0px; font-weight:normal; margin-bottom:5px; margin-top:5px; }
   h2  { font-size:20px; line-height:23px; color:#000000; padding:0px; margin:0px; font-weight:normal; margin-bottom:5px; margin-top:10px;  }
   h3  { font-size:15px; line-height:25px; color:#858585; padding:0px; margin:0px; font-weight:normal;   }
   h4  { font-size:15px; line-height:25px; color:#000000; padding:0px; margin:0px; font-weight:normal; font-weight:bold;  } 
   h5  { font-size:13px; line-height:22px; color:#000000; padding:0px; margin:0px; font-weight:normal;  }
   h6  { font-size:12px; line-height:22px; color:#858585; padding:0px; margin:0px; font-weight:normal;  } 
-  p   { font-size:12px; color:#000000; line-height:18px; margin:0px; padding:0px; padding-top:8px; padding-bottom:8px; font-family:'Helvetica',Arial, Helvetica, sans-serif; }
+  p   { font-size:14px; color:#000000; line-height:18px; margin:0px; padding:0px; padding-top:8px; padding-bottom:8px; font-family:'Helvetica',Arial, Helvetica, sans-serif; }
 
 /* list Styles */
   ul 	{ padding:0px; margin:0; margin-left:0px; font-family:'Helvetica',Arial, Helvetica, sans-serif; margin-top:10px;   }
