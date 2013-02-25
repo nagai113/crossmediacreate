@@ -4,7 +4,7 @@
    <div id="footer-area">
 			<?php dynamic_sidebar( 'gridly_footer' ); ?>
         </div><!-- // footer area -->   
-             <img src="http://crossmediacreate.com/wp-content/uploads/adband_logo_wordpress_foot.jpg">
+             <img src="http://crossmediacreate.com/wp-content/uploads/adband_logo_wordpress_foot.jpg" align="right">
 <?php }  ?>     
       
  <div id="copyright">
