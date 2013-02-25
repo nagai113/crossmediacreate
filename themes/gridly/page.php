@@ -14,7 +14,6 @@
                                 
 
        			<div class="gridly-copy">
-                <h1><?php the_title(); ?></h1>
            		 <?php the_content(); ?> 
                 
                  <?php wp_link_pages(); ?>
