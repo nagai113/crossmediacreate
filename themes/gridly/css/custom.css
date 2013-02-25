@@ -4,7 +4,7 @@
   
 /* font styles */	
   h1  { font-size:18px; line-height:41px; color:#000000; padding:0px; margin:0px; font-weight:normal; margin-bottom:5px; margin-top:5px; }
-  h2  { font-size:20px; line-height:23px; color:#000000; padding:0px; margin:0px; font-weight:normal; margin-bottom:5px; margin-top:10px;  }
+  h2  { font-size:18px; line-height:23px; color:#000000; padding:0px; margin:0px; font-weight:normal; margin-bottom:5px; margin-top:10px;  }
   h3  { font-size:15px; line-height:25px; color:#858585; padding:0px; margin:0px; font-weight:normal;   }
   h4  { font-size:15px; line-height:25px; color:#000000; padding:0px; margin:0px; font-weight:normal; font-weight:bold;  } 
   h5  { font-size:13px; line-height:22px; color:#000000; padding:0px; margin:0px; font-weight:normal;  }
@@ -68,7 +68,7 @@
 /* post index styles */ 
   #post-area .post 				{ width:310px; background:#e5e5e5; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; margin-right:10px; margin-top:15px; position:relative; }
   #post-area .post .gridly-copy 		{ width:250px; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:20px; overflow:hidden; clear:both;}
-  #post-area .post .gridly-date 		{ width:150px;  color:#000000; font-size:11px;  border-bottom:1px dotted #cccccc; padding-bottom:0; padding-top:0; }
+  #post-area .post .gridly-date 		{ width:150px;  color:#000000; font-size:12px;  border-bottom:1px dotted #cccccc; padding-bottom:0; padding-top:0; }
   #post-area .post .gridly-link 		{ width:150px; border-top:1px dotted #e8e8e8; color:#494e51;}
 
 /* single post nav styles */ 
